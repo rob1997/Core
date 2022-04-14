@@ -1,8 +1,9 @@
 ﻿using System.Collections.Generic;
+using Core.Character;
 using Core.Damage;
 using UnityEngine;
 
-namespace Core.Game
+namespace Core.Character
 {
     public abstract class Character : MonoBehaviour
     {

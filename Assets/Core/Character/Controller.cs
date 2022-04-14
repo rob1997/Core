@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
+using Core.Character;
 using UnityEngine;
 
-namespace Core.Game
+namespace Core.Character
 {
     public abstract class Controller : MonoBehaviour
     {

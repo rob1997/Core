@@ -1,7 +1,8 @@
 ﻿using System;
+using Core.Game;
 using UnityEngine;
 
-namespace Core.Game
+namespace Core.Character
 {
     public abstract class Action
     {
