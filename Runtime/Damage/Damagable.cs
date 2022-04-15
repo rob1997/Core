@@ -62,7 +62,7 @@ namespace Core.Damage
 
         [Space]
     
-        public GenericDictionary<Damage.DamageType, Resistance> resistance = GenericDictionary<Damage.DamageType, Resistance>
+        [HideInInspector] public GenericDictionary<Damage.DamageType, Resistance> resistance = GenericDictionary<Damage.DamageType, Resistance>
             .ToGenericDictionary(Utils.Utils.GetEnumValues<Damage.DamageType>().ToDictionary(d => d, d => new Resistance()));
 
         private float _currentHealth;

@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="def8a523-1adb-47d7-92f4-9f04ff377cc0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Character.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Character/Action.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Character/Action.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Character/Character.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Character/Character.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Character/Controller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Character/Controller.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Damage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Damage/Damagable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Damage/Damagable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Damage/Damage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Damage/Damage.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Damage/Damager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Damage/Damager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Game.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Game/GameManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Game/GameManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Game/Manager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Game/Manager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Utils.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Utils/GenericDictionary.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Utils/GenericDictionary.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Utils/Singleton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Utils/Singleton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Utils/Utils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Utils/Utils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Core/DamagableEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Core/DamagableEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/VersionControlSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Controller/Packages/manifest.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="568">
+              <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="rob1997 &lt;robelgetnetrg@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7A640F6C-B241-40B6-897C-AC910F849430/04/7c82aac6/IDictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Controllers/MotionController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Game/Action.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Damage/Damagable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Utils/CoreUtils.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Damage/Damager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Action.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Utils/Singleton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Utils/Utils.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Utils/GenericDictionary.cs" />
+        <option value="$PROJECT_DIR$/Assets/Test.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Damage/Damagable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Damage/Damage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Game/Action.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Game/Character.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Game/Controller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Game/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Game/Manager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Character/Character.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Character/Controller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Character/Action.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/Core/StaticDictionaryEditor.cs" />
+        <option value="$PROJECT_DIR$/Packages/Core/Runtime/Damage/Damagable.cs" />
+        <option value="$PROJECT_DIR$/Packages/Core/Editor/DamagableEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/NewBehaviourScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/Core/DamagableEditor.cs" />
+        <option value="$PROJECT_DIR$/Packages/Core/package.json" />
+        <option value="$PROJECT_DIR$/../Controller/Packages/manifest.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.Core/.idea/indexLayout.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1440" />
+    <option name="height" value="775" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="def8a523-1adb-47d7-92f4-9f04ff377cc0" name="Default Changelist" comment="" />
+      <created>1649884397805</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649884397805</updated>
+      <workItem from="1649884403409" duration="35683000" />
+      <workItem from="1650024005675" duration="4410000" />
+    </task>
+    <task id="LOCAL-00001" summary="Moved and Changed Namespace">
+      <created>1649950700664</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649950700664</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="40093000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25285044" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="NuGet" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Unit Tests" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Run" order="9" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" id="Version Control" order="0" weight="0.3293092" />
+      <window_info anchor="right" id="Errors In Solution" order="1" weight="0.32997987" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Moved and Changed Namespace" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved and Changed Namespace" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/HealthBar.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utils/IkAdditives.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utils/MouseLook.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/Manager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/GameManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/Controller.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/Character.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/Action.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utils/BasicRigidBodyPush.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utils/Constants.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utils/Playground.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utils/Singleton.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utils/Utils.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utils/Extensions.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/Damage/Damagable.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Utils/CoreUtils.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Core/Character.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Core/Controller.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Core/GameManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Core/Manager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Core/Action.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/CoreUtils/CoreUtils.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/CoreUtils/Singleton.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7A640F6C-B241-40B6-897C-AC910F849430/04/7c82aac6/IDictionary`2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Core/Utils/Singleton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <marker date="1649888131751" expanded="true" signature="40:726" ph="{...}" />
+            <marker date="1649888131751" expanded="true" signature="111:724" ph="{...}" />
+            <marker date="1649888131751" expanded="true" signature="301:557" ph="{...}" />
+            <marker date="1649888131751" expanded="true" signature="346:463" ph="{...}" />
+            <marker date="1649888131751" expanded="true" signature="481:547" ph="{...}" />
+            <marker date="1649888131751" expanded="true" signature="601:718" ph="{...}" />
+            <marker date="1649888131751" expanded="true" signature="646:708" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Test.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Core/Utils/Utils.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <marker date="1649920297036" expanded="true" signature="6:70" ph="..." />
+            <marker date="1649920297036" expanded="true" signature="92:811" ph="{...}" />
+            <marker date="1649920297036" expanded="true" signature="124:809" ph="{...}" />
+            <marker date="1649920297036" expanded="true" signature="193:498" ph="{...}" />
+            <marker date="1649920297036" expanded="true" signature="239:428" ph="{...}" />
+            <marker date="1649920297036" expanded="true" signature="564:803" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Core/Game/Action.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Core/Game/Controller.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Core/Game/Character.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/Core/StaticDictionaryEditor.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Core/Character/Character.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Core/Character/Controller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Core/Game/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Core/Game/Manager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Packages/Core/Editor/core.Scripts.Runtime.asmref">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Packages/Core/Runtime/Game/Manager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Packages/Core/Editor/RuntimeReference.asmref">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Packages/Core/Editor/core.DamagableEditor.Editor.asmdef">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Packages/Core/Runtime/Damage/Damagable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Core/NewBehaviourScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Packages/Core/Editor/DamagableEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Core/Character/Action.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Core/Damage/Damagable.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Core/Damage/Damage.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Core/Damage/Damager.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Core/Utils/GenericDictionary.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/Core/DamagableEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Packages/Core/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Packages/Core/Runtime/Utils/Utils.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Controller/Packages/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
