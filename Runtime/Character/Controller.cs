@@ -6,7 +6,7 @@ namespace Core.Character
 {
     public abstract class Controller : MonoBehaviour
     {
-        private List<Action> _actions = new List<Action>();
+        private List<Function> _functions = new List<Function>();
 
         private Character _character;
     
@@ -15,44 +15,44 @@ namespace Core.Character
             _character = character;
         }
 
-        public void AddActions(List<Action> actions)
+        public void AddFunctions(List<Function> functions)
         {
-            actions.ForEach(action =>
+            functions.ForEach(function =>
             {
-                if (_actions.Find(a => a.GetType() == action.GetType()) == null)
+                if (_functions.Find(a => a.GetType() == function.GetType()) == null)
                 {
-                    _actions.Add(action);
+                    _functions.Add(function);
             
-                    action.Initialize(this);
+                    function.Initialize(this);
                 }
 
                 else
                 {
-                    Debug.LogError($"action {action} already exists");
+                    Debug.LogError($"function {function} already exists");
                 }
             });
         }
     
-        public void TakeAction<T>(params object[] objs) where T : Action
+        public void InvokeFunction<T>(params object[] objs) where T : Function
         {
-            if (GetAction(out T action))
+            if (GetFunction(out T function))
             {
-                action.Execute(objs);
+                function.Invoke(objs);
             }
         }
     
-        public bool GetAction<T>(out T action) where T : Action
+        public bool GetFunction<T>(out T function) where T : Function
         {
-            action = null;
+            function = null;
 
-            action = (T) _actions.Find(a => a is T);
+            function = (T) _functions.Find(a => a is T);
 
-            if (action == null)
+            if (function == null)
             {
-                Debug.LogError($"can't find action {typeof(T)}");
+                Debug.LogError($"can't find function {typeof(T)}");
             }
         
-            return action != null;
+            return function != null;
         }
     
         public Character GetCharacter()

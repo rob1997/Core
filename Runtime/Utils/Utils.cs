@@ -25,5 +25,20 @@ namespace Core.Utils
             //make first char upper case
             return string.Concat(displayName[0].ToString().ToUpper(), displayName.Substring(1));
         }
+        
+        public static T Cast<T>(object obj)
+        {
+            try
+            {
+                return (T) obj;
+            }
+        
+            catch (Exception e)
+            {
+                Debug.LogError($"Error Trying to Cast From {obj.GetType()} To {typeof(T)} {e}");
+            
+                throw;
+            }
+        }
     }
 }

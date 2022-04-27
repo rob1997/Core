@@ -1,34 +1,33 @@
 ﻿using System.Collections.Generic;
 using Core.Character;
-using Core.Damage;
 using UnityEngine;
 
 namespace Core.Character
 {
     public abstract class Character : MonoBehaviour
     {
-        #region ActionInitiated
+        #region FunctionCalled
 
-        public delegate void ActionInitiated(Action action);
+        public delegate void FunctionCalled(Function function);
 
-        public event ActionInitiated OnActionInitiated;
+        public event FunctionCalled OnFunctionCalled;
 
-        public void InvokeActionInitiated(Action action)
+        public void InvokeFunctionCalled(Function function)
         {
-            OnActionInitiated?.Invoke(action);
+            OnFunctionCalled?.Invoke(function);
         }
 
         #endregion
 
-        #region ActionCompleted
+        #region FunctionInvoked
 
-        public delegate void ActionCompleted(Action action);
+        public delegate void FunctionInvoked(Function function, params object[] objs);
 
-        public event ActionCompleted OnActionCompleted;
+        public event FunctionInvoked OnFunctionInvoked;
 
-        public void InvokeActionCompleted(Action action)
+        public void InvokeFunctionInvoked(Function function, params object[] objs)
         {
-            OnActionCompleted?.Invoke(action);
+            OnFunctionInvoked?.Invoke(function, objs);
         }
 
         #endregion
@@ -37,16 +36,9 @@ namespace Core.Character
     
         [TextArea]
         public string description;
-
-        [Space] 
-    
-        [SerializeField] private Damagable damagable;
     
         private List<Controller> _controllers;
-    
-        public Damager Damager { get; } = new Damager();
-        public Damagable Damagable => damagable;
-    
+        
         protected virtual void Start()
         {
             if (GameManager.Instance.IsReady)
@@ -60,7 +52,7 @@ namespace Core.Character
             }
         }
 
-        public virtual void Initialize()
+        protected virtual void Initialize()
         {
             _controllers = new List<Controller>(GetComponentsInChildren<Controller>());
 
@@ -79,27 +71,27 @@ namespace Core.Character
             return controller != null;
         }
     
-        public void TakeAction<T>() where T : Action
+        public void InvokeFunction<T>() where T : Function
         {
-            if (GetAction(out T action))
+            if (GetFunction(out T function))
             {
-                action.Execute();
+                function.Invoke();
             }
         }
     
-        public bool GetAction<T>(out T action) where T : Action
+        public bool GetFunction<T>(out T function) where T : Function
         {
-            action = null;
+            function = null;
 
             foreach (Controller c in _controllers)
             {
-                if (c.GetAction(out action))
+                if (c.GetFunction(out function))
                 {
                     break;
                 }
             }
 
-            return action != null;
+            return function != null;
         }
     }
 }
