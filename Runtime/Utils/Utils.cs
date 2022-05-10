@@ -18,6 +18,16 @@ namespace Core.Utils
             return (T[])Enum.GetValues(typeof(T));
         }
         
+        public static Array GetEnumValues(Type type)
+        {
+            if (!type.IsEnum) 
+            {
+                throw new ArgumentException("GetValues<T> can only be called for types derived from System.Enum", nameof(type));
+            }
+        
+            return Enum.GetValues(type);
+        }
+        
         public static string GetDisplayName(string name)
         {
             string displayName = Regex.Replace($"{name}", "(\\B[A-Z])", " $1");
